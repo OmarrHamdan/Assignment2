@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/Menu"
+            android:title= "Menu"
+            android:icon="@drawable/list"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/DFragment"
+            android:title="DFragment"
+            app:showAsAction="never"/>
+        <item android:id="@+id/Controls"
+            android:title="Click me"
+            app:showAsAction="never">
+                <menu>
+                        <item android:id="@+id/SpinnerList"
+                            android:title="Picture"
+                            app:showAsAction="never"/>
+
+                </menu>
+        </item>
+
+
+</menu>
